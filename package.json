@@ -1,0 +1,31 @@
+{
+  "name": "tmp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "show": "xo index.js && node index.js"
+  },
+  "keywords": ["Ooyala"],
+  "author": "Kuu Miyazaki",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.26.2",
+    "ooyala-api": "^0.13.2"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "rules": {
+      "camelcase": 0,
+      "capitalized-comments": 0,
+      "new-cap": 0,
+      "no-await-in-loop": 0,
+      "no-return-assign": 0,
+      "import/no-dynamic-require": 0
+    }
+  }
+}
